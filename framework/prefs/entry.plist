@@ -1,10 +1,10 @@
 {
     entry = {
-	bundle = prefs;
+	bundle = GremlinPreferences;
 	cell = PSLinkCell;
-	detail = prefsListController;
-	icon = prefs.png;
+	detail = GRPreferencesListController;
+	icon = gremlin.png;
 	isController = 1;
-	label = prefs;
+	label = "Gremlin";
     };
 }

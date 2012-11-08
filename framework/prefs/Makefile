@@ -1,11 +1,11 @@
 include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = prefs
-prefs_FILES = prefs.mm
-prefs_INSTALL_PATH = /Library/PreferenceBundles
-prefs_FRAMEWORKS = UIKit
-prefs_PRIVATE_FRAMEWORKS = Preferences
-prefs_CFLAGS += -Iinclude
+BUNDLE_NAME = GremlinPreferences
+GremlinPreferences_FILES = prefs.mm
+GremlinPreferences_INSTALL_PATH = /Library/PreferenceBundles
+GremlinPreferences_FRAMEWORKS = UIKit
+GremlinPreferences_PRIVATE_FRAMEWORKS = Preferences
+GremlinPreferences_CFLAGS += -Iinclude
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
