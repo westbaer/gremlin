@@ -55,26 +55,26 @@
 		<dict>
 			<key>cell</key>
 			<string>PSLinkCell</string>
-			<key>detail</key>
-			<string>PSDetailController</string>
 			<key>id</key>
 			<string>http://twitter.com/cocoanutapps</string>
 			<key>label</key>
-			<string>Follow @CocoaNuts</string>
+			<string>Follow @CocoaNutApps</string>
 			<key>icon</key>
 			<string>nutz.png</string>
+			<key>action</key>
+			<string>openVendorTwitter:</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSLinkCell</string>
-			<key>detail</key>
-			<string>PSDetailController</string>
 			<key>id</key>
 			<string>http://twitter.com/yfrancis</string>
 			<key>label</key>
 			<string>Follow @yfrancis</string>
 			<key>icon</key>
 			<string>twitter.png</string>
+			<key>action</key>
+			<string>openPersonalTwitter:</string>
 		</dict>
 	</array>
 	<key>title</key>

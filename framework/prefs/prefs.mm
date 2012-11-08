@@ -11,6 +11,17 @@
 	}
 	return _specifiers;
 }
+
+- (void)openVendorTwitter:(id)sender
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/CocoaNutApps"]];
+}
+
+- (void)openPersonalTwitter:(id)sender
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/yfrancis"]];
+}
+
 @end
 
 // vim:ft=objc
